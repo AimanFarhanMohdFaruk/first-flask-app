@@ -9,5 +9,9 @@ def index():
 def show():
     return '<h1>Faruk Rahman</h1>'
 
+@app.route ('/user/<username>')
+def show_name(username):
+    return f"Hello {username}"
+
 if __name__ == '__main__': # Revisit previous challenge if you're uncertain what this does https://code.nextacademy.com/lessons/name-main/424
    app.run()
