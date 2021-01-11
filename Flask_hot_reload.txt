@@ -1,2 +1,4 @@
 export FLASK_ENV=development
 export FLASK_APP=<file_name>
+
+#add this into env without the export part
